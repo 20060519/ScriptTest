@@ -2,20 +2,20 @@ using UnityEngine;
 
 public class Test : MonoBehaviour
 {
-    void Start()
+    class Boss
     {
-        int[] array = { 10, 20, 30, 40, 50 };
+        private int mp = 53;
+        void mp- = 5;
 
-        for (int i = 0; i < 5; i++)
+        Boss lastboss = new Boss();
+        
+    }
+    void Start()
+    {       
+        for (int i = 0; i < 10; i++)
         {
-            Debug.Log(array[i]);
+            boss.Magic;
         }
-
-        for (int i = array.Length -1; i >= 0; i--)
-        {
-            Debug.Log(array[i]);
-        }
-
 
     }
 
